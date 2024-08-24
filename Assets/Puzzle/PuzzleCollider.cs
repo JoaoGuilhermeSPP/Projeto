@@ -6,7 +6,7 @@ public class PuzzleCollider : MonoBehaviour
 {
     bool Ecolisao = false;
     private GameObject teleport;
-
+ 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Fonte") && !Ecolisao)
@@ -24,10 +24,10 @@ public class PuzzleCollider : MonoBehaviour
         if (other.CompareTag("teleport"))
         {
             teleport = other.gameObject;
+           
+            Vector2 destino = transform.position = teleport.GetComponent<PortalCo>().irDestino().position;
+            transform.position = new Vector2(destino.x + 1.3f, destino.y + 1.3f);
 
-           Vector2 destino =  transform.position = teleport.GetComponent<PortalCo>().irDestino().position;
-           transform.position = new Vector2(destino.x + 1.3f, destino.y + 1.3f);
-            
         }
 
     }
@@ -37,11 +37,13 @@ public class PuzzleCollider : MonoBehaviour
         {
             if (other.gameObject == teleport)
             {
+                
                 teleport = null;
 
             }
         }
     }
+   
 }
 
     
