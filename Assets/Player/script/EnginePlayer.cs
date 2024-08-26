@@ -36,7 +36,7 @@ public class EnginePlayer : MonoBehaviour
         }
         
     }
-    public void recover()
+    public void recover()//recarrega energia
     {
         if(!reload)
         {
@@ -47,8 +47,9 @@ public class EnginePlayer : MonoBehaviour
             barra.fillAmount = Mathf.Lerp(barra.fillAmount, targetFillAmount, Time.deltaTime * fillSpeed);
         }
     }
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.layer == 7)
+    private void OnTriggerEnter2D(Collider2D other)
+    { //coleta livro
+        if (other.gameObject.layer == 7)
         {
             puzzlescript.instance.IncrementeLivro();
              TxLivro = puzzlescript.instance.LivroPoint.ToString();
@@ -56,8 +57,9 @@ public class EnginePlayer : MonoBehaviour
         }
     }
     IEnumerator Increment()
+    //incrementa carga de energia a cada 10seg
     {
-   yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(10f);
   PlayerMovements.instance.intCharge = maxcharge;
   PlayerMovements.instance.bloq = false;
     reload = false;

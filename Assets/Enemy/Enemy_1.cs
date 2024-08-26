@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Enemy_1 : enemyMecanics
 {
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+
+        if (other.CompareTag("Player"))//detecta o player e faz um sinal 
         {
             if (sinal != null)
             {
@@ -22,7 +22,7 @@ public class Enemy_1 : enemyMecanics
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)//sai da colisao
     {
         if (other.CompareTag("Player"))
         {
@@ -30,6 +30,7 @@ public class Enemy_1 : enemyMecanics
             target = null;
         }
     }
+   
 }
    
 

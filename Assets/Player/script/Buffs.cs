@@ -27,7 +27,7 @@ public class Buffs : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         
-        if(other.gameObject.CompareTag("livro1"))
+        if(other.gameObject.CompareTag("livro1"))//aumeta velocidade
         {
              GameObject effect1 = Instantiate(buff1,transform.position,Quaternion.identity);
               effect1.transform.parent = PlayerMovements.instance.transform;
@@ -35,7 +35,7 @@ public class Buffs : MonoBehaviour
             Destroy(other.gameObject);
             StartCoroutine(Debuff(effect1));
         }   
-       if(other.gameObject.CompareTag("livro2"))
+       if(other.gameObject.CompareTag("livro2")) //aumenta dash
         {   
             GameObject effect2 = Instantiate(buff2,transform.position,Quaternion.identity);
             effect2.transform.parent = PlayerMovements.instance.transform;
@@ -43,7 +43,7 @@ public class Buffs : MonoBehaviour
             Destroy(other.gameObject);
             StartCoroutine(Debuff(effect2));
         }
-        if (other.gameObject.CompareTag("livro3")) 
+        if (other.gameObject.CompareTag("livro3")) //Buff de intagivel
         {
             GameObject effect3 = Instantiate(buff3, transform.position, Quaternion.identity);
             effect3.transform.parent = PlayerMovements.instance.transform;

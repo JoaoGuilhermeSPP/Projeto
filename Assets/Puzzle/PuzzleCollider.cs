@@ -9,7 +9,8 @@ public class PuzzleCollider : MonoBehaviour
  
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Fonte") && !Ecolisao)
+        if (other.gameObject.CompareTag("Fonte") && !Ecolisao)//colisor da fonte e pilar
+
         {
             Ecolisao = true;
             Vector2 NewPos = other.transform.position;
@@ -31,7 +32,7 @@ public class PuzzleCollider : MonoBehaviour
         }
 
     }
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)//telport do pilar com o portal
     {
         if (other.CompareTag("teleport"))
         {

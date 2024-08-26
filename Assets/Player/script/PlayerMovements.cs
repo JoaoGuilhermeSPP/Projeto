@@ -16,6 +16,7 @@ public class PlayerMovements : MonoBehaviour
     public float decremente = 1f;
     private bool isDashing = false;
     public  bool bloq;
+    public bool vivo = true;
 
     public Collider2D col;
 
@@ -38,8 +39,11 @@ public class PlayerMovements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Dash();
+        if (vivo)
+        {
+            Move();
+            Dash();
+        }
         bloq  = intCharge <= 0;
     }
     void FixedUpdate() 
