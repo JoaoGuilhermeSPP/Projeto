@@ -16,7 +16,6 @@ public class Enemy_1 : enemyMecanics
                 effect.transform.localPosition = new Vector3(0f, 0.5f, 0f);
                 Destroy(effect, 1.5f);
             }
-
             target = other.transform;
             isFollowing = true;
         }

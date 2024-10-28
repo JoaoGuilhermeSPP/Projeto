@@ -24,7 +24,9 @@ public class PlayerMovements : MonoBehaviour
      public Animator anim;
      public Vector2 movement;
      public GameObject effect;
-    
+
+    public GameObject PainelDead;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +47,13 @@ public class PlayerMovements : MonoBehaviour
             Dash();
         }
         bloq  = intCharge <= 0;
+        if (!vivo) 
+        {
+            speed = 0f;
+            anim.SetTrigger("dead");
+            Invoke("DeadGameOver",1.2f);
+            
+        }
     }
     void FixedUpdate() 
     {
@@ -77,7 +86,13 @@ public class PlayerMovements : MonoBehaviour
             }
         }
      }
-    
+    void DeadGameOver() 
+    {
+        gameObject.SetActive(false);
+        PainelDead.SetActive(true);
+
+    }
+
     //dash
     private IEnumerator forceDash(Vector2 direction)
     {

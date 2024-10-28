@@ -8,10 +8,15 @@ public class enemyMecanics : MonoBehaviour
         public Transform target;
         public bool isFollowing = false;
         public GameObject sinal;
-        public Animator anim;
         public float rd;
         public LayerMask pl;
         public Transform margem;
+        public Animator anim;
+
+    private void Start()
+    {
+        anim.SetBool("kill", false);
+    }
     void Update()
         {
             if (isFollowing && target != null)
@@ -31,11 +36,13 @@ public class enemyMecanics : MonoBehaviour
         Collider2D morte = Physics2D.OverlapCircle(margem.position, rd, pl);
         if (morte != null)
         {
+            transform.position = new Vector2(transform.position.x - 0.6f, transform.position.y);
+
             anim.SetBool("kill", true);
             PlayerMovements.instance.vivo = false;
-            PlayerMovements.instance.Rig.constraints = RigidbodyConstraints2D.FreezeAll;
-            PlayerMovements.instance.anim.speed = 0; 
-        }
+           speed = 0;
+
+        } 
     }
     private void OnDrawGizmos()//desenha o colisor
     {

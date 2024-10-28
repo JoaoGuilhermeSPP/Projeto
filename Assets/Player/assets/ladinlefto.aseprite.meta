@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: ladinlefto
     originalName: 
-    pivot: {x: 0.3125, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: ladinlefto_Frame_1
     originalName: 
-    pivot: {x: 0.39583334, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 4}
   - name: ladinlefto_Frame_2
     originalName: 
-    pivot: {x: 0.4375, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 42}
   - name: ladinlefto_Frame_3
     originalName: 
-    pivot: {x: 0.4130435, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 40}
   - name: ladinlefto_Frame_4
     originalName: 
-    pivot: {x: 0.39583334, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

@@ -128,8 +128,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 39
-      y: 198
+      x: 65
+      y: 96
       width: 17
       height: 21
     spriteID: e920e42344b7d2f4a8318441572e87c5
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 39, y: 198}
+    uvTransform: {x: 65, y: 96}
   - name: ENEMYSPRIT_Frame_1
     originalName: 
     pivot: {x: 0.4821484, y: 0.5673667}
@@ -148,10 +148,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 203
+      x: 65
+      y: 125
       width: 17
-      height: 23
+      height: 21
     spriteID: 6c7bb4ec671bed347a038e9800183b3e
     spriteBone: []
     spriteOutline: []
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 203}
+    uvTransform: {x: 65, y: 125}
   - name: ENEMYSPRIT_Frame_2
     originalName: 
     pivot: {x: 0.5089256, y: 0.54757494}
@@ -168,8 +168,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 39
-      y: 137
+      x: 65
+      y: 4
       width: 17
       height: 23
     spriteID: c40d5370541b4b94b90e8184745d828c
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 39, y: 137}
+    uvTransform: {x: 65, y: 4}
   - name: ENEMYSPRIT_Frame_3
     originalName: 
     pivot: {x: 0.51993865, y: 0.5508072}
@@ -188,10 +188,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 171
+      x: 65
+      y: 35
       width: 17
-      height: 24
+      height: 23
     spriteID: 0021936674acc814c99dc1c2cf4bc3c1
     spriteBone: []
     spriteOutline: []
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 171}
+    uvTransform: {x: 65, y: 35}
   - name: ENEMYSPRIT_Frame_4
     originalName: 
     pivot: {x: 0.4464454, y: 0.52418447}
@@ -209,9 +209,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 39
-      y: 168
+      y: 220
       width: 17
-      height: 22
+      height: 24
     spriteID: 05bb8111b0a4a3f409a94519b732f94d
     spriteBone: []
     spriteOutline: []
@@ -220,7 +220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 39, y: 168}
+    uvTransform: {x: 39, y: 220}
   - name: ENEMYSPRIT_Frame_5
     originalName: 
     pivot: {x: 0.48214835, y: 0.51301795}
@@ -228,10 +228,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 39
-      y: 227
+      x: 65
+      y: 66
       width: 17
-      height: 21
+      height: 22
     spriteID: ec7e932ff790a6049ad8f6e15a7b5028
     spriteBone: []
     spriteOutline: []
@@ -240,18 +240,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 39, y: 227}
+    uvTransform: {x: 65, y: 66}
   - name: ENEMYSPRIT_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 65
-      y: 60
+      y: 154
       width: 17
-      height: 17
+      height: 21
     spriteID: e2afb8f2733cdd9459bc348cd6c82351
     spriteBone: []
     spriteOutline: []
@@ -260,18 +260,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 60}
+    uvTransform: {x: 65, y: 154}
   - name: ENEMYSPRIT_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 65
-      y: 85
+      y: 183
       width: 17
-      height: 14
+      height: 17
     spriteID: 3e1555a08f71bfb498f0a3d69fd45b4b
     spriteBone: []
     spriteOutline: []
@@ -280,18 +280,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 85}
+    uvTransform: {x: 65, y: 183}
   - name: ENEMYSPRIT_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 234
-      width: 18
-      height: 17
+      x: 65
+      y: 208
+      width: 17
+      height: 14
     spriteID: ed350b22e3ec4a94196f3946058e9300
     spriteBone: []
     spriteOutline: []
@@ -300,18 +300,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 234}
+    uvTransform: {x: 65, y: 208}
   - name: ENEMYSPRIT_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
-      y: 4
-      width: 19
-      height: 20
+      x: 90
+      y: 60
+      width: 18
+      height: 17
     spriteID: 9d2818ad24d6184419308619c6cd5896
     spriteBone: []
     spriteOutline: []
@@ -320,16 +320,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 4}
+    uvTransform: {x: 90, y: 60}
   - name: ENEMYSPRIT_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
-      y: 32
+      x: 90
+      y: 4
       width: 19
       height: 20
     spriteID: 3eb858a62fe434f47b899794c1b16519
@@ -340,18 +340,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 32}
+    uvTransform: {x: 90, y: 4}
   - name: ENEMYSPRIT_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    pivot: {x: 0.5, y: 0.46375656}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 137
-      width: 27
-      height: 26
+      x: 90
+      y: 32
+      width: 19
+      height: 20
     spriteID: 249faa8b186f4b04f90ea93cc1e453f1
     spriteBone: []
     spriteOutline: []
@@ -360,18 +360,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 137}
+    uvTransform: {x: 90, y: 32}
   - name: ENEMYSPRIT_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 94
-      width: 35
-      height: 35
+      y: 220
+      width: 27
+      height: 26
     spriteID: 0b8d617bf2d71fc4490cc528c548be37
     spriteBone: []
     spriteOutline: []
@@ -380,18 +380,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 94}
+    uvTransform: {x: 4, y: 220}
   - name: ENEMYSPRIT_Frame_13
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 49
-      width: 36
-      height: 37
+      y: 177
+      width: 35
+      height: 35
     spriteID: 600b6721a3327364585380bf86c7ee9e
     spriteBone: []
     spriteOutline: []
@@ -400,17 +400,17 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 49}
+    uvTransform: {x: 4, y: 177}
   - name: ENEMYSPRIT_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 53
+      y: 132
+      width: 36
       height: 37
     spriteID: 794b61a5b315c3f4f9e965cfa609301b
     spriteBone: []
@@ -420,7 +420,67 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+    uvTransform: {x: 4, y: 132}
+  - name: ENEMYSPRIT_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 53
+      height: 37
+    spriteID: bc68364920b91f94ebebec100641ee7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: ENEMYSPRIT_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 53
+      height: 37
+    spriteID: 78068fa5e8845da43be0f206cb48840c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: ENEMYSPRIT_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 53
+      height: 30
+    spriteID: f7764b31972b96341a780379b6e29319
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -446,7 +506,7 @@ ScriptedImporter:
         x: 16
         y: 20
         width: 17
-        height: 23
+        height: 21
       spriteId: 6c7bb4ec671bed347a038e9800183b3e
     - name: ENEMYSPRIT_Frame_2
       frameIndex: 2
@@ -464,7 +524,7 @@ ScriptedImporter:
         x: 16
         y: 20
         width: 17
-        height: 24
+        height: 23
       spriteId: 0021936674acc814c99dc1c2cf4bc3c1
     - name: ENEMYSPRIT_Frame_4
       frameIndex: 4
@@ -473,7 +533,7 @@ ScriptedImporter:
         x: 16
         y: 20
         width: 17
-        height: 22
+        height: 24
       spriteId: 05bb8111b0a4a3f409a94519b732f94d
     - name: ENEMYSPRIT_Frame_5
       frameIndex: 5
@@ -482,50 +542,50 @@ ScriptedImporter:
         x: 16
         y: 20
         width: 17
-        height: 21
+        height: 22
       spriteId: ec7e932ff790a6049ad8f6e15a7b5028
     - name: ENEMYSPRIT_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
         x: 16
-        y: 27
+        y: 20
         width: 17
-        height: 17
+        height: 21
       spriteId: e2afb8f2733cdd9459bc348cd6c82351
     - name: ENEMYSPRIT_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
         x: 16
-        y: 29
+        y: 27
         width: 17
-        height: 14
+        height: 17
       spriteId: 3e1555a08f71bfb498f0a3d69fd45b4b
     - name: ENEMYSPRIT_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 29
+        width: 17
+        height: 14
+      spriteId: ed350b22e3ec4a94196f3946058e9300
+    - name: ENEMYSPRIT_Frame_9
+      frameIndex: 9
       additiveSortOrder: 0
       cellRect:
         x: 15
         y: 27
         width: 18
         height: 17
-      spriteId: ed350b22e3ec4a94196f3946058e9300
-    - name: ENEMYSPRIT_Frame_9
-      frameIndex: 9
-      additiveSortOrder: 0
-      cellRect:
-        x: 14
-        y: 25
-        width: 19
-        height: 20
       spriteId: 9d2818ad24d6184419308619c6cd5896
     - name: ENEMYSPRIT_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
-        x: 15
-        y: 26
+        x: 14
+        y: 25
         width: 19
         height: 20
       spriteId: 3eb858a62fe434f47b899794c1b16519
@@ -533,38 +593,65 @@ ScriptedImporter:
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
+        x: 15
+        y: 26
+        width: 19
+        height: 20
+      spriteId: 249faa8b186f4b04f90ea93cc1e453f1
+    - name: ENEMYSPRIT_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
         x: 11
         y: 23
         width: 27
         height: 26
-      spriteId: 249faa8b186f4b04f90ea93cc1e453f1
-    - name: ENEMYSPRIT_Frame_12
-      frameIndex: 12
+      spriteId: 0b8d617bf2d71fc4490cc528c548be37
+    - name: ENEMYSPRIT_Frame_13
+      frameIndex: 13
       additiveSortOrder: 0
       cellRect:
         x: 14
         y: 18
         width: 35
         height: 35
-      spriteId: 0b8d617bf2d71fc4490cc528c548be37
-    - name: ENEMYSPRIT_Frame_13
-      frameIndex: 13
+      spriteId: 600b6721a3327364585380bf86c7ee9e
+    - name: ENEMYSPRIT_Frame_14
+      frameIndex: 14
       additiveSortOrder: 0
       cellRect:
         x: 16
         y: 17
         width: 36
         height: 37
-      spriteId: 600b6721a3327364585380bf86c7ee9e
-    - name: ENEMYSPRIT_Frame_14
-      frameIndex: 14
+      spriteId: 794b61a5b315c3f4f9e965cfa609301b
+    - name: ENEMYSPRIT_Frame_15
+      frameIndex: 15
       additiveSortOrder: 0
       cellRect:
         x: 17
         y: 17
         width: 53
         height: 37
-      spriteId: 794b61a5b315c3f4f9e965cfa609301b
+      spriteId: bc68364920b91f94ebebec100641ee7b
+    - name: ENEMYSPRIT_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 17
+        width: 53
+        height: 37
+      spriteId: 78068fa5e8845da43be0f206cb48840c
+    - name: ENEMYSPRIT_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 23
+        width: 53
+        height: 30
+      spriteId: f7764b31972b96341a780379b6e29319
     linkedCells: []
     parentIndex: -1
   platformSettings:

@@ -32,7 +32,7 @@ public class PuzzleCollider : MonoBehaviour
         }
 
     }
-    private void OnTriggerExit2D(Collider2D other)//telport do pilar com o portal
+    private void OnTriggerExit2D(Collider2D other)//teleport do pilar com o portal
     {
         if (other.CompareTag("teleport"))
         {
